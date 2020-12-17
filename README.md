@@ -18,6 +18,7 @@ convert it to code
 ### [Examples](#examples)
 
 - [Simple Frame](#simpleFrame)
+- [Many Mix](#ManyMix)
     
 
 
@@ -1960,7 +1961,7 @@ convert it to code
     }
     
    #####Output
-   ![alt text](https://github.com/mr-shitij/UIRender/tree/master/output/simpleFrame.png?raw=true)
+   ![alt text](https://github.com/mr-shitij/UIRender/blob/master/output/simpleFrame.png?raw=true)
 
 #### ManyMix
     {
@@ -2287,4 +2288,4 @@ convert it to code
     }
     
    #####ManyMix
-   ![alt text](https://github.com/mr-shitij/UIRender/tree/master/output/manyMix.png?raw=true)
+   ![alt text](https://github.com/mr-shitij/UIRender/blob/master/output/manyMix.png?raw=true)
