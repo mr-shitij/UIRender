@@ -299,26 +299,26 @@ convert it to code
         "enable": true
       }
 
-  2. Using Layout Align.  
-  
-  
-      {
-        "type": "button",
-        "id": "button_variable_name",
-        "text": "button_name",
-        "icon": "button_icon.png",
-        "foreground-color": [10, 100, 50],
-        "background-color": [50, 100, 20],
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "bold"
-        },
-        "layout-align": "north",
-        "global": true,
-        "enable": true
-      }
-    
+  2. Using Layout Align.
+
+
+          {
+            "type": "button",
+            "id": "button_variable_name",
+            "text": "button_name",
+            "icon": "button_icon.png",
+            "foreground-color": [10, 100, 50],
+            "background-color": [50, 100, 20],
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "bold"
+            },
+            "layout-align": "north",
+            "global": true,
+            "enable": true
+          }
+
 
 #### Label  
     
@@ -395,23 +395,22 @@ convert it to code
 
   2. Using Layout Align.  
   
-  
-      {
-        "type": "label",
-        "id": "label_variable_name",
-        "text": "label_name",
-        "foreground-color": [10, 100, 50],
-        "background-color": [50, 100, 20],
-        "align": "left",
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "bold"
-        },
-        "layout-align": "north",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "label",
+            "id": "label_variable_name",
+            "text": "label_name",
+            "foreground-color": [10, 100, 50],
+            "background-color": [50, 100, 20],
+            "align": "left",
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "bold"
+            },
+            "layout-align": "north",
+            "global": true,
+            "enable": true
+          }
     
 
 #### ComboBox  
@@ -484,22 +483,22 @@ convert it to code
   2. Using Layout Align.  
   
   
-      {
-        "type": "combobox",
-        "id": "combobox_variable_name",
-        "foreground-color": [10, 100, 50],
-        "background-color": [50, 100, 20],
-        "item": ["combobox_item1", "combobox_item2"],
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "bold"
-        },
-        "layout-align": "north",
-        "global": true,
-        "enable": true
-      }
-    
+          {
+            "type": "combobox",
+            "id": "combobox_variable_name",
+            "foreground-color": [10, 100, 50],
+            "background-color": [50, 100, 20],
+            "item": ["combobox_item1", "combobox_item2"],
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "bold"
+            },
+            "layout-align": "north",
+            "global": true,
+            "enable": true
+          }
+
 
 #### Checkbox  
     
@@ -572,23 +571,23 @@ convert it to code
 
   2. Using Layout Align.  
   
-  
-      {
-        "type": "checkbox",
-        "id": "checkbox_variable_name",
-        "text": "checkbox_name",
-        "foreground-color": [10, 100, 50],
-        "background-color": [50, 100, 20],
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "bold"
-        },
-        "layout-align": "north",
-        "global": true,
-        "enable": true
-      }
-    
+
+          {
+            "type": "checkbox",
+            "id": "checkbox_variable_name",
+            "text": "checkbox_name",
+            "foreground-color": [10, 100, 50],
+            "background-color": [50, 100, 20],
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "bold"
+            },
+            "layout-align": "north",
+            "global": true,
+            "enable": true
+          }
+
 
 #### List  
     
@@ -675,25 +674,25 @@ convert it to code
   2. Using Layout Align.  
   
   
-      {
-        "type": "list",
-        "id": "list_variable_name",
-        "foreground-color": [10, 100, 50],
-        "background-color": [50, 100, 20],
-        "data": ["List_item1", "List_item2"],
-        "selection-foreground-color": [0, 200, 0],
-        "selection-background-color": [0, 200, 255],
-        "width": 100,
-        "height": 100,
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "bold"
-        },
-        "layout-align": "north",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "list",
+            "id": "list_variable_name",
+            "foreground-color": [10, 100, 50],
+            "background-color": [50, 100, 20],
+            "data": ["List_item1", "List_item2"],
+            "selection-foreground-color": [0, 200, 0],
+            "selection-background-color": [0, 200, 255],
+            "width": 100,
+            "height": 100,
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "bold"
+            },
+            "layout-align": "north",
+            "global": true,
+            "enable": true
+          }
 
 #### Panel  
     
@@ -783,38 +782,38 @@ convert it to code
   2. Using Layout Align.  
   
   
-      {
-        "type": "panel",
-        "id": "panel_ui",
-        "background-color": "red",
-        "scroll-pane": true, 
-        "layout": {
-            "name": "borderlayout",
-            "hgap": 5,
-            "vgap": 5
-        }
-        "components": [
           {
-            "type": "button",
-            "id": "button_variable_name",
-            "text": "button_name",
-            "icon": "button_icon.png",
-            "foreground-color": [10, 100, 50],
-            "background-color": [50, 100, 20],
-            "font": {
-              "name":"arial",
-              "size": 10,
-              "style": "bold"
-            },
-            "layout-align": "north",
+            "type": "panel",
+            "id": "panel_ui",
+            "background-color": "red",
+            "scroll-pane": true, 
+            "layout": {
+                "name": "borderlayout",
+                "hgap": 5,
+                "vgap": 5
+            }
+            "components": [
+              {
+                "type": "button",
+                "id": "button_variable_name",
+                "text": "button_name",
+                "icon": "button_icon.png",
+                "foreground-color": [10, 100, 50],
+                "background-color": [50, 100, 20],
+                "font": {
+                  "name":"arial",
+                  "size": 10,
+                  "style": "bold"
+                },
+                "layout-align": "north",
+                "global": true,
+                "enable": true
+              }
+            ],
+            "layout-align": "center",
             "global": true,
             "enable": true
           }
-        ],
-        "layout-align": "center",
-        "global": true,
-        "enable": true
-      }
 
 #### PasswordField
     
@@ -895,24 +894,24 @@ convert it to code
   2. Using Layout Align.  
   
 
-      {
-        "type": "passwordfield",
-        "id": "password",
-        "text": "enter password",
-        "columns": 10,
-        "foreground-color": [10, 10, 50],
-        "background-color": [50, 10, 10],
-        "align": "center",
-        "scroll-pane": true,
-        "font": {
-          "name": "arial",
-          "size": 20,
-          "style": "bold"
-        },
-        "layout-align": "south",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "passwordfield",
+            "id": "password",
+            "text": "enter password",
+            "columns": 10,
+            "foreground-color": [10, 10, 50],
+            "background-color": [50, 10, 10],
+            "align": "center",
+            "scroll-pane": true,
+            "font": {
+              "name": "arial",
+              "size": 20,
+              "style": "bold"
+            },
+            "layout-align": "south",
+            "global": true,
+            "enable": true
+          }
 
 
 
@@ -998,25 +997,25 @@ convert it to code
   2. Using Layout Align.  
   
 
-      {
-        "type": "textarea",
-        "id": "area",
-        "text": "enter message",
-        "rows": 5,
-        "columns": 10,
-        "foreground-color": [10, 10, 50],
-        "background-color": [50, 10, 10],
-        "align": "center",
-        "scroll-pane": true,
-        "font": {
-          "name": "arial",
-          "size": 20,
-          "style": "bold"
-        },
-        "layout-align": "south",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "textarea",
+            "id": "area",
+            "text": "enter message",
+            "rows": 5,
+            "columns": 10,
+            "foreground-color": [10, 10, 50],
+            "background-color": [50, 10, 10],
+            "align": "center",
+            "scroll-pane": true,
+            "font": {
+              "name": "arial",
+              "size": 20,
+              "style": "bold"
+            },
+            "layout-align": "south",
+            "global": true,
+            "enable": true
+          }
 
 #### TextField
 
@@ -1099,24 +1098,24 @@ convert it to code
   2. Using Layout Align.  
   
 
-      {
-        "type": "textfield",
-        "id": "textfield",
-        "text": "enter message",
-        "columns": 10,
-        "foreground-color": [10, 10, 50],
-        "background-color": [50, 10, 10],
-        "align": "center",
-        "scroll-pane": true,
-        "font": {
-          "name": "arial",
-          "size": 20,
-          "style": "bold"
-        },
-        "layout-align": "south",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "textfield",
+            "id": "textfield",
+            "text": "enter message",
+            "columns": 10,
+            "foreground-color": [10, 10, 50],
+            "background-color": [50, 10, 10],
+            "align": "center",
+            "scroll-pane": true,
+            "font": {
+              "name": "arial",
+              "size": 20,
+              "style": "bold"
+            },
+            "layout-align": "south",
+            "global": true,
+            "enable": true
+          }
 
 #### RadioButton
     
@@ -1191,20 +1190,20 @@ convert it to code
   2. Using Layout Align.  
   
 
-      {
-        "type": "radioButton",
-        "id": "radioButton",
-        "icon": "iceButton.png",
-        "text": "Ice",
-        "font": {
-          "name": "arial",
-          "size": 20,
-          "style": "bold"
-        },
-        "layout-align": "center",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "radioButton",
+            "id": "radioButton",
+            "icon": "iceButton.png",
+            "text": "Ice",
+            "font": {
+              "name": "arial",
+              "size": 20,
+              "style": "bold"
+            },
+            "layout-align": "center",
+            "global": true,
+            "enable": true
+          }
 
 #### RadioGroup
     
@@ -1496,24 +1495,24 @@ convert it to code
   2. Using Layout Align.  
   
 
-      {
-        "type": "table",
-        "columns": ["Name", "Age", "Salary"],
-        "rows": [
-          ["ABC", "18", "99"],
-          ["A2C", "218", "919"],
-          ["A23BC", "128", "9329"]
-        ],
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "plain"
-        },
-        "resize": false,
-        "layout-align": "south",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "table",
+            "columns": ["Name", "Age", "Salary"],
+            "rows": [
+              ["ABC", "18", "99"],
+              ["A2C", "218", "919"],
+              ["A23BC", "128", "9329"]
+            ],
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "plain"
+            },
+            "resize": false,
+            "layout-align": "south",
+            "global": true,
+            "enable": true
+          }
 
 #### ProgressBar
     
@@ -1604,27 +1603,27 @@ convert it to code
   2. Using Layout Align.  
 
 
-      {
-        "type": "progressbar",
-        "id": "progressState",
-        "val": 10,
-        "min": 0,
-        "max": 100,
-        "text": "10%",
-        "orientation": "horizontal",
-        "indeterminate": false,
-        "string-painted": true,
-        "foreground-color": [0, 0, 0],
-        "background-color": [5, 10, 50],
-        "font": {
-          "name":"arial",
-          "size": 10,
-          "style": "plain"
-        },
-        "layout-align": "south",
-        "global": true,
-        "enable": true
-      }
+          {
+            "type": "progressbar",
+            "id": "progressState",
+            "val": 10,
+            "min": 0,
+            "max": 100,
+            "text": "10%",
+            "orientation": "horizontal",
+            "indeterminate": false,
+            "string-painted": true,
+            "foreground-color": [0, 0, 0],
+            "background-color": [5, 10, 50],
+            "font": {
+              "name":"arial",
+              "size": 10,
+              "style": "plain"
+            },
+            "layout-align": "south",
+            "global": true,
+            "enable": true
+          }
 
 #### Menu and Its Items
 
