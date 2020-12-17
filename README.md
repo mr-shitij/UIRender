@@ -1960,7 +1960,7 @@ convert it to code
       }
     }
     
-   #####Output
+   ##### Output
    ![alt text](https://github.com/mr-shitij/UIRender/blob/master/output/simpleFrame.png?raw=true)
 
 #### ManyMix
@@ -2287,5 +2287,5 @@ convert it to code
       }
     }
     
-   #####ManyMix
+   ##### ManyMix
    ![alt text](https://github.com/mr-shitij/UIRender/blob/master/output/manyMix.png?raw=true)
