@@ -1,13 +1,13 @@
 # UIRender
 
-UIRender is java application which take ui description in form of json object and then
+UIRender is java application that take a description in the form of JSON object and then
 convert it to code  
   
 *Note : java swing components are used*
 
 
 ### Applications
-1. It can be used to create drag and drop ui editors.
+1. It can be used to create drag-and-drop UI editors.
    
 2. It can be used in a way so that we can construct code from text description or by voice.  
 
@@ -21,6 +21,10 @@ convert it to code
 - [Many Mix](#ManyMix)
     
 
+### Contribute
+1. Need to add support for multiple languages like Python.
+2. Create the UI for the UI Render Engine.
+3. If you have developed any application using this engine feel free to create a pull request and add your application under the Examples Folder.
 
 ### Supported Java Swing Component's
 - [Button](#button) 
