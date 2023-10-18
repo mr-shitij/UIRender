@@ -13,7 +13,7 @@ convert it to code
 
 3. It can be used to create a desktop application development framework as like android has its xml to ui we can have json to ui. 
 
-4. Support of new languages can be added as needed.
+5. Can be integrated with AI Model so, that we can generate the UI by specifying the text as a description.
 
 ### [Examples](#examples)
 
@@ -23,7 +23,9 @@ convert it to code
 
 ### Contribute
 1. Need to add support for multiple languages like Python.
+
 2. Create the UI for the UI Render Engine.
+
 3. If you have developed any application using this engine feel free to create a pull request and add your application under the Examples Folder.
 
 ### Supported Java Swing Component's
